@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#todo-section {
+  width: 512px;
+  margin: 4rem auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#todo-section-header {
+  padding: 2rem;
+}
+
+#todo-section-title {
+  margin-bottom: 1rem;
+}
+
+#todo-form {
+  display: flex;
+  gap: 0.25rem;
+  width: 100%;
+}
+
+#todo-form input[type="text"] {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+#todo-form input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#todo-section-body {
+  padding: 2rem;
+}
+
+#todo-list {
+  list-style-type: none;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#todo-list li div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#todo-list li input[type="checkbox"] {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+#todo-list li p {
+  font-size: 1.25rem;
+}
+
+#todo-list li button {
+  font-size: 2rem;
+  border: none;
+  background-color: inherit;
+}
+
+#todo-list li button:hover {
+  color: rgba(0, 0, 0, 0.25);
+}
