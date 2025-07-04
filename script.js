@@ -4,6 +4,8 @@ let todos = localStorage.getItem("todos");
 // Initialize todos as an empty array if it doesn't already exist in local storage
 if (todos == null) {
   todos = [];
+} else {
+  todos = JSON.parse(todos);
 }
 
 // Event to handle request to render todo list on page load
